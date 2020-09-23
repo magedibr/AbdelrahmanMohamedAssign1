@@ -13,21 +13,23 @@ int input(){
     int i = 0;
     int flag =0;
 
-    while(i != SIZE){
+    while(i!=SIZE+1){
+        i++;
+        if(i<SIZE) {
 
-            i++;
-            scanf("%d", (inp1+i));
-            printf("%d ", i);
-            //printf("%d",inp1[i]);
-            flag = 1;
+            scanf("%d", (inp1 + i));               //printf("%d ", i);
+          //  printf("%d",inp1[5]);
 
-            if(i > SIZE){                                   // maybe take out the print statment an only set the flag value
-                printf("Too many digits please try again\n");
-                flag=0;
-                break;
+        }else if(i > SIZE -1){                        // maybe take out the print statment an only set the flag value
+            flag=1;
+           break;
         }
     }
-    printf(" flag %d \n",flag);
+/*
+ * see if flipping the if statments so that
+ * larger than is on the top and i++ is in the second if statment
+ */
+    printf(" flag %d \n",inp1[i]);
     return flag;
 
 }
