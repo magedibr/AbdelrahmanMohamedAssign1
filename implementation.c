@@ -13,7 +13,7 @@ int input(){
     int i = 0;
     int flag =0;
 
-    while(i!=SIZE+1){
+    while(i!=SIZE){
         i++;
         if(i<SIZE) {
 
@@ -21,16 +21,16 @@ int input(){
           //  printf("%d",inp1[5]);
 
         }else if(i > SIZE -1){                        // maybe take out the print statment an only set the flag value
-            flag=1;
+            flag = 1;
            break;
         }
-    }
-/*
- * see if flipping the if statments so that
- * larger than is on the top and i++ is in the second if statment
- */
-    printf(" flag %d \n",inp1[i]);
+
+
+    printf(" flag: %d \n",inp1[i]);
     return flag;
+}
+
+
 
 }
 
