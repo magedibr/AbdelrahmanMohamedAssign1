@@ -5,33 +5,28 @@
 #include "Assign1.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #define SIZE 9
+int i = 0;
+int flag =0;
 
-int input(){
+int input() {
 
     int inp1[SIZE];
-    int i = 0;
-    int flag =0;
+    char ter = "";
 
-    while(i!=SIZE){
+    while (1) {
+
         i++;
-        if(i<SIZE) {
+        scanf("%c", &ter);               //printf("%d ", i);
+        printf(" %d", i);
 
-            scanf("%d", (inp1 + i));               //printf("%d ", i);
-          //  printf("%d",inp1[5]);
+        if (ter == 0x0A)
+            break;
 
-        }else if(i > SIZE -1){                        // maybe take out the print statment an only set the flag value
-            flag = 1;
-           break;
-        }
+    }
 
-
-    printf(" flag: %d \n",inp1[i]);
+    if (i/2 != 9) flag = 1;
     return flag;
+    printf("%d",flag);
 }
-
-
-
-}
-
-
