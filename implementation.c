@@ -6,27 +6,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define SIZE 9
+#define BUFFER_SIZE 100
+
 int i = 0;
-int flag =0;
+int arr[11];
+char buffer[BUFFER_SIZE];
 
 int input() {
 
-    int inp1[SIZE];
-    char ter = "";
+    int ctr =0;
+    while(ctr != 9){
+        fgets(buffer, sizeof(buffer), stdin);
+        ctr = sscanf(buffer, "%d%d%d%d%d%d%d%d%d", arr+1,arr+2,arr+3,arr+4,arr+5,arr+6,arr+7,arr+8,arr+9);
 
-    while (1) {
-
-        i++;
-        scanf("%c", &ter);               //printf("%d ", i);
-        printf(" %d", i);
-
-        if (ter == 0x0A)
-            break;
+        if(ctr != 9){
+            ctr =0;
+            continue;
+        }
 
     }
 
-    if (i/2 != 9) flag = 1;
-    return flag;
-    printf("%d",flag);
 }
+
+
+
+

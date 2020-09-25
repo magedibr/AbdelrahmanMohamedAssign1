@@ -13,7 +13,7 @@ puts("Given Sudoku grid is valid\n"
      "Remember, to make a valid row of Sudoku grid,\n"
      "all integers should be distinct and range from 1 to 9");
 
-if(input() == 0 ){
+if(input() == 1 ){
     printf("true\n");}
 
 else printf("false\n");
