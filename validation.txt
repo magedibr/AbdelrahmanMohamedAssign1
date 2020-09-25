@@ -1,0 +1,29 @@
+nclude "Assign1.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define BUFFER_SIZE 100
+
+int i = 0;
+
+int input() {
+
+int a, b=12,c;
+char buffer[BUFFER_SIZE];
+int ctr =0;
+
+while(ctr != 3){
+
+    puts("Enter 3 ints, seprated by tab/enter.");
+    fgets(buffer,sizeof(buffer),stdin);
+   ctr = sscanf(buffer,"%d%d%d",&a,&b,&c);
+   if(ctr != 3){
+       puts("Try again please");
+       ctr =0;
+       continue;
+   }
+//
+}
+
+
+}
