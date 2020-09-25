@@ -32,7 +32,10 @@ int input() {
         }
 
     }
-    if(dup(arr);
+   // if(dup(arr)==1) input()
+   //
+    dup(arr);
+//printf("%d\n",dup(arr));
 
 }
 
@@ -40,13 +43,24 @@ int input() {
 
 
 int dup(int arr[]){
+int i;
+int j;
+int flag=0;
 
-    for (int i = 0; i<11;i++){
-
-        if (arr[i]==arr[i+1]){
-            return 0;
+    for(i = 0; i < 10; i++)
+    {
+        for(j = i + 1; j < 10; j++)
+        {
+            if(arr[i] == arr[j])
+            {
+                flag++;
+                printf("enter 9 distinct integers please, no duplicates");
+            }
         }
     }
-}
+ return flag;
+
+    }
+
 
 
