@@ -7,4 +7,5 @@
 int input();
 int check(int i );
 int dup(int arr[]);
+int range(int arr[]);
 #endif //ABDELRAHMANMOHAMEDASSIGN1_ASSIGN1_C_H

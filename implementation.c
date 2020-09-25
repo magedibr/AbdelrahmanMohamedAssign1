@@ -11,13 +11,7 @@
 
 int arr[11];
 char buffer[BUFFER_SIZE];
-
-
-
-
-
-
-
+//maybe turn the return type into an int array!!!!?????
 int input() {
 
     int ctr =0;
@@ -32,19 +26,17 @@ int input() {
         }
 
     }
-  if(dup(arr)==1) input();
 
-//printf("%d\n",dup(arr));
+    if(dup(arr)==1) input();
+    if (range(arr)==1)input();
+
 
 }
 
-
-
-
 int dup(int arr[]){
-int i;
-int j;
-int flag=0;
+    int i;
+    int j;
+    int flag=0;
 
     for(i = 0; i < 10; i++)
     {
@@ -57,9 +49,26 @@ int flag=0;
             }
         }
     }
- return flag;
+    return flag;
 
+}
+
+
+
+int range(int arr[]){
+    int max = 9;
+    int min = 1;
+    int flag=0;
+
+    for(int i = 0; i < 10; i++)
+    {
+        if(!(arr[i]>=min && arr[i]<=max)) {
+            flag=1;
+        }
     }
+    return flag;
+
+}
 
 
 
