@@ -6,4 +6,5 @@
 #define ABDELRAHMANMOHAMEDASSIGN1_ASSIGN1_C_H
 int input();
 int check(int i );
+
 #endif //ABDELRAHMANMOHAMEDASSIGN1_ASSIGN1_C_H

@@ -8,7 +8,7 @@
 #include <string.h>
 #define BUFFER_SIZE 100
 
-int i = 0;
+
 int arr[11];
 char buffer[BUFFER_SIZE];
 
@@ -20,6 +20,7 @@ int input() {
         ctr = sscanf(buffer, "%d%d%d%d%d%d%d%d%d", arr+1,arr+2,arr+3,arr+4,arr+5,arr+6,arr+7,arr+8,arr+9);
 
         if(ctr != 9){
+            printf("Please try again: \n");
             ctr =0;
             continue;
         }
