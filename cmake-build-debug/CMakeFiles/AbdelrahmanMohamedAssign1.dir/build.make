@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1
+CMAKE_SOURCE_DIR = /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AbdelrahmanMohamedAssign1.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/AbdelrahmanMohamedAssign1.dir/flags.make
 
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o: CMakeFiles/AbdelrahmanMohamedAssign1.dir/flags.make
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o: ../Assign1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o   -c /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/Assign1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o   -c /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/Assign1.c
 
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/Assign1.c > CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/Assign1.c > CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.i
 
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/Assign1.c -o CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/Assign1.c -o CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.s
 
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.o: CMakeFiles/AbdelrahmanMohamedAssign1.dir/flags.make
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.o: ../implementation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.o   -c /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/implementation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.o   -c /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/implementation.c
 
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/implementation.c > CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/implementation.c > CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.i
 
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/implementation.c -o CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/implementation.c -o CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.s
 
 # Object files for target AbdelrahmanMohamedAssign1
 AbdelrahmanMohamedAssign1_OBJECTS = \
@@ -115,7 +115,7 @@ AbdelrahmanMohamedAssign1: CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o
 AbdelrahmanMohamedAssign1: CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.o
 AbdelrahmanMohamedAssign1: CMakeFiles/AbdelrahmanMohamedAssign1.dir/build.make
 AbdelrahmanMohamedAssign1: CMakeFiles/AbdelrahmanMohamedAssign1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable AbdelrahmanMohamedAssign1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable AbdelrahmanMohamedAssign1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AbdelrahmanMohamedAssign1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/AbdelrahmanMohamedAssign1.dir/clean:
 .PHONY : CMakeFiles/AbdelrahmanMohamedAssign1.dir/clean
 
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/depend:
-	cd /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1 /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1 /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/cmake-build-debug /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/cmake-build-debug /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1/cmake-build-debug/CMakeFiles/AbdelrahmanMohamedAssign1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1 /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1 /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/cmake-build-debug /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/cmake-build-debug /Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/cmake-build-debug/CMakeFiles/AbdelrahmanMohamedAssign1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/AbdelrahmanMohamedAssign1.dir/depend
 
