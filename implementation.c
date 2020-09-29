@@ -15,7 +15,12 @@ int input() {
         fgets(buffer, sizeof(buffer), stdin);
         ctr = sscanf(buffer, "%d%d%d%d%d%d%d%d%d", arr+1,arr+2,arr+3,arr+4,arr+5,arr+6,arr+7,arr+8,arr+9);
         if(ctr != 9){
-            printf("Please try again,must be 9 integers: \n");
+            puts(
+                    "\nEnter exactly INTIGERS separated by Space/Tab followed by Enter key to end!\n"
+                    "Use Space/Tab/Return key to enter the next values\n"
+                    "and press 'Return' after entering nine integers.\n"
+                    "Remember, to make a valid row of Sudoku gird,\n"
+                    "all integers should be distinct and range from 1 to 9\n");
             ctr =0;
             continue;
         }
@@ -39,7 +44,7 @@ int dup(int arr[]){
         {
             if(arr[i] == arr[j]){
                 puts(
-                        "Enter nine distinct integers, No duplicates please!\n"
+                        "\nEnter nine distinct integers, No duplicates please!\n"
                         "Use Space/Tab/Return key to enter the next values\n"
                         "and press 'Return' after entering nine integers.\n"
                         "Remember, to make a valid row of Sudoku gird,\n"
@@ -64,7 +69,7 @@ int range(int arr[]){
     {
         if(!(arr[i]>=min) || !(arr[i]<=max)) {
             puts(
-                    "One of more entries are outside the range 1 to 9!\n"
+                    "\nOne of more entries are outside the range 1 to 9!\n"
                     "Use Space/Tab/Return key to enter the next values\n"
                     "and press ‘Return’ after entering nine integers.\n"
                     "Remember, to make a valid row of Sudoku grid,\n"
