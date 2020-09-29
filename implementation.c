@@ -21,7 +21,7 @@ int input() {
         }
 
     }
-    //puts("yep");
+    //Recursion is used for loop till user input is fully validated
     if(dup(arr)==1 || range(arr)==1) return input();
     else return 1;
 
@@ -37,8 +37,8 @@ int dup(int arr[]){
     {
         for(j = i + 1; j < 10; j++)
         {
-            if(arr[i] == arr[j])
-            {puts(
+            if(arr[i] == arr[j]){
+                puts(
                         "Enter nine distinct integers, No duplicates please!\n"
                         "Use Space/Tab/Return key to enter the next values\n"
                         "and press 'Return' after entering nine integers.\n"
