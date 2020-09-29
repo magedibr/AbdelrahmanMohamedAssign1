@@ -1,7 +1,3 @@
-//
-// Created by Abdelrahman Mohamed on 2020-09-22.
-//
-
 #include "Assign1.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,10 +21,9 @@ int input() {
         }
 
     }
-   puts("yep");
-    if (dup(arr) == 1) input();else return 0;
-    if (range(arr) == 1) input();else return 0;
-
+    //puts("yep");
+    if(dup(arr)==1 || range(arr)==1) return input();
+    else return 1;
 
 
 }
@@ -36,20 +31,25 @@ int input() {
 int dup(int arr[]){
     int i;
     int j;
-    int flag=0;
+    int dupFlag=0;
 
     for(i = 0; i < 10; i++)
     {
         for(j = i + 1; j < 10; j++)
         {
             if(arr[i] == arr[j])
-            {
-                flag=1;
-                printf("enter 9 distinct integers please, no duplicates\n");
+            {puts(
+                        "Enter nine distinct integers, No duplicates please!\n"
+                        "Use Space/Tab/Return key to enter the next values\n"
+                        "and press 'Return' after entering nine integers.\n"
+                        "Remember, to make a valid row of Sudoku gird,\n"
+                        "all integers should be distinct and range from 1 to 9\n");
+              return  dupFlag=1;
+
             }
         }
     }
-    return flag;
+
 
 }
 
@@ -58,15 +58,21 @@ int dup(int arr[]){
 int range(int arr[]){
     int max = 9;
     int min = 1;
-    int flag=0;
+    int rngFlag=0;
 
-    for(int i = 0; i < 10; i++)
+    for(int i = 1; i < 10; i++)
     {
-        if(!(arr[i]>=min && arr[i]<=max)) {
-            flag=1;
+        if(!(arr[i]>=min) || !(arr[i]<=max)) {
+            puts(
+                    "One of more entries are outside the range 1 to 9!\n"
+                    "Use Space/Tab/Return key to enter the next values\n"
+                    "and press ‘Return’ after entering nine integers.\n"
+                    "Remember, to make a valid row of Sudoku grid,\n"
+                    "all integers should be distinct and range from 1 to 9\n");
+            return rngFlag=1;
+
         }
     }
-    return flag;
+
 
 }
-
