@@ -7,18 +7,16 @@
 int validGrid[9][ 9 ] = {{5,3,4,6,7,8,9,1,2}, {6,7,2,1,9,5,3,4,8},{1,9,8,3,4,2,5,6,7},
                        {8,5,9,7,6,1,4,2,3},{4,2,6,8,5,3,7,9,1},{7,1,3,9,2,4,8,5,6},
                          {9,6,1,5,3,7,2,8,4},{2,8,7,4,1,9,6,3,5},{3,4,5,2,8,6,1,7,9}};
-/*
+
 #include<time.h>
 
-//Function to return 1 if sudoku grid is valid and 0 otherwise
-
-int checkWin(int b[9][9])
+int isValid(int b[9][9])
 
 {
 
     int i, j, k, l, m, n;
 
-//Invalid if any value is not from 1 to 9
+//Checking range
 
     for(i = 0; i < 9; i++)
 
@@ -28,7 +26,7 @@ int checkWin(int b[9][9])
 
                 return 0;
 
-//Invalid if any value repeats in the row
+//Checking for repeated values in rows and box's
 
     for(i = 0; i < 9; i++)
 
@@ -40,8 +38,6 @@ int checkWin(int b[9][9])
 
                     return 0;
 
-//Invalid if any value repeats in the column
-
     for(j = 0; j < 9; j++)
 
         for(i = 0; i < 9; i++)
@@ -51,8 +47,6 @@ int checkWin(int b[9][9])
                 if(b[i][j] == b[k][j])
 
                     return 0;
-
-//Invalid if any value repeats in the block
 
     for(i = 0; i < 9; i++)
 
@@ -74,13 +68,13 @@ int checkWin(int b[9][9])
 
         }
 
-//Otherwise, valid
 
+//If valid
     return 1;
 
 }
 
-//Function to print the result accordingly
+
 
 void printResult(int result)
 
@@ -123,7 +117,7 @@ void displayGrid(int arr[9][9])
 }
 
 //main() begins
-
+/*
 int main(void)
 
 {

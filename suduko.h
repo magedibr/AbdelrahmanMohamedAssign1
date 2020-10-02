@@ -6,6 +6,6 @@
 #define ABDELRAHMANMOHAMEDASSIGN1_SUDUKO_H
 void solvesudoku(int,int);
 int checkrow(int row,int num);
-int checkWin(int b[9][9]);
-
+int isValid(int b[9][9]);
+void printResult(int result);
 #endif //ABDELRAHMANMOHAMEDASSIGN1_SUDUKO_H

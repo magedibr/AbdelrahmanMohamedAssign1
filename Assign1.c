@@ -11,12 +11,30 @@
 
 
 int main() {
-int i,j,k,l;
-l=0;
+int i,j,k;
+
 int arr[9][9];
 
-int* col1 ;
+int* col1;
 int* col2;
+
+    int testArr[9][9] = {{5,3,4,6,7,8,9,1,2}, {6,7,2,1,9,5,3,4,8},{1,9,8,3,4,2,5,6,7},
+                     {8,5,9,7,6,1,4,2,3},{4,2,6,8,5,3,7,9,1},{7,1,3,9,2,4,8,5,6},
+                     {9,6,1,5,3,7,2,8,4},{2,8,7,4,1,9,6,3,5},{3,4,5,2,8,6,1,7,9}};
+
+
+
+
+    printFinal(testArr);
+
+    printResult(isValid(testArr));
+
+
+
+    puts("Given that the following array is valid: ");
+
+
+
 
 col1= input();
 col2= input();
@@ -29,11 +47,6 @@ col2= input();
     }
 
 
-
-
-
-
-
 //Generate remaining rows
 
     srand(time(0));
@@ -43,10 +56,9 @@ col2= input();
         for(j = 0; j < 9; j++)
 
         {
-// put arr i as 1 arr[1]
+
             arr[i][j] = 1 + rand() % 9;
 
-//Repeat the element if it is already present in that row
 
             for(k = 0; k < j; k++)
 
@@ -56,8 +68,9 @@ col2= input();
 
         }
 
-printFinal(arr);
 
+printFinal(arr);
+printResult(isValid(arr));
 
 
 
