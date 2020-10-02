@@ -1,9 +1,15 @@
+/*
+ * Created by : Abdelrahman Mohamed
+ * Date:  01/10/2020
+ * Description: Main method that calls all the functions.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include "Assign1.h"
 #include "suduko.h"
-#define BUFFER_SIZE 100
+
 
 
 int main() {
