@@ -7,8 +7,9 @@
 
 int arr[11];
 char buffer[BUFFER_SIZE];
-//maybe turn the return type into an int array!!!!?????
-int input() {
+
+
+int* input() {
 
     int ctr =0;
     while(ctr != 9){
@@ -24,11 +25,11 @@ int input() {
             ctr =0;
             continue;
         }
-
     }
     //Recursion is used for loop till user input is fully validated
     if(dup(arr)==1 || range(arr)==1) return input();
-    else return 1;
+  return (int *) &arr;
+
 
 
 }
@@ -78,6 +79,40 @@ int range(int arr[]){
 
         }
     }
+}
 
+int *arrRet( int* arrs){
+        return arrs;
+}
+
+void printFinal(int arrs[9][9])
+
+{
+
+    int i, j;
+
+    printf("\n-------------Sudoku Grid-------------");
+
+    for(i = 0; i < 9; i++)
+
+    {
+
+        printf("\n");
+
+        for(j = 0; j < 9; j++)
+
+            printf(" %d", arrs[i][j]);
+
+    }
+
+    printf("\n\n");
 
 }
+
+
+
+
+
+
+
+

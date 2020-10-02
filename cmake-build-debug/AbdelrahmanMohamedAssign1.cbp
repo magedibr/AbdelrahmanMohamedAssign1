@@ -87,6 +87,12 @@
 		<Unit filename="/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/implementation.c">
 			<Option target="AbdelrahmanMohamedAssign1"/>
 		</Unit>
+		<Unit filename="/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/suduko.c">
+			<Option target="AbdelrahmanMohamedAssign1"/>
+		</Unit>
+		<Unit filename="/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/suduko.h">
+			<Option target="AbdelrahmanMohamedAssign1"/>
+		</Unit>
 		<Unit filename="/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

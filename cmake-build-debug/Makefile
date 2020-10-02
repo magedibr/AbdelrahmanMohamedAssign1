@@ -197,6 +197,33 @@ implementation.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AbdelrahmanMohamedAssign1.dir/build.make CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.s
 .PHONY : implementation.c.s
 
+suduko.o: suduko.c.o
+
+.PHONY : suduko.o
+
+# target to build an object file
+suduko.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AbdelrahmanMohamedAssign1.dir/build.make CMakeFiles/AbdelrahmanMohamedAssign1.dir/suduko.c.o
+.PHONY : suduko.c.o
+
+suduko.i: suduko.c.i
+
+.PHONY : suduko.i
+
+# target to preprocess a source file
+suduko.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AbdelrahmanMohamedAssign1.dir/build.make CMakeFiles/AbdelrahmanMohamedAssign1.dir/suduko.c.i
+.PHONY : suduko.c.i
+
+suduko.s: suduko.c.s
+
+.PHONY : suduko.s
+
+# target to generate assembly for a file
+suduko.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AbdelrahmanMohamedAssign1.dir/build.make CMakeFiles/AbdelrahmanMohamedAssign1.dir/suduko.c.s
+.PHONY : suduko.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +239,9 @@ help:
 	@echo "... implementation.o"
 	@echo "... implementation.i"
 	@echo "... implementation.s"
+	@echo "... suduko.o"
+	@echo "... suduko.i"
+	@echo "... suduko.s"
 .PHONY : help
 
 

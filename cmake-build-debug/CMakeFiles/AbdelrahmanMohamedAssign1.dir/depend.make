@@ -3,7 +3,10 @@
 
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o: ../Assign1.c
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o: ../Assign1.h
+CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o: ../suduko.h
 
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.o: ../Assign1.h
 CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.o: ../implementation.c
+
+CMakeFiles/AbdelrahmanMohamedAssign1.dir/suduko.c.o: ../suduko.c
 

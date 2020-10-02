@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "AbdelrahmanMohamedAssign1.pdb"
   "CMakeFiles/AbdelrahmanMohamedAssign1.dir/Assign1.c.o"
   "CMakeFiles/AbdelrahmanMohamedAssign1.dir/implementation.c.o"
+  "CMakeFiles/AbdelrahmanMohamedAssign1.dir/suduko.c.o"
 )
 
 # Per-language clean rules from dependency scanning.
