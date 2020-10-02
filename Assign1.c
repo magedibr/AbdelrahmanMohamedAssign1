@@ -22,17 +22,10 @@ col1= input();
 col2= input();
 
 
-
+    //Assign user input
     for(int q=1;q<10;q++){
-     //   arr[0][q]=*col1+q;
-      //  printf(" Col 1 %d: ", col1[q]);
         arr[0][q-1] = col1[q];
         arr[1][q-1] = col2[q];
-     //   printf("%d",*col2+q);
-        //arr[1][q]=*(col2+q);
-
-        //printf("%d", *(col2));
-        //col1++;
     }
 
 
