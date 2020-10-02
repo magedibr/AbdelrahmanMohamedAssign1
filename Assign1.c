@@ -1,7 +1,7 @@
 /*
  * Created by : Abdelrahman Mohamed
  * Date:  01/10/2020
- * Description: Main method that calls all the functions.
+ * Description: Main method that calls and executes functions.
  */
 
 #include <stdio.h>

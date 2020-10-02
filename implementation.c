@@ -1,7 +1,12 @@
+/*
+ * Created by : Abdelrahman Mohamed
+ * Date:  01/10/2020
+ * Description: Functions that validate user input.
+ */
+
 #include "Assign1.h"
 #include <stdio.h>
 #define SIZE 9
-
 
 //static array so that it is not destroyed after function is called
 static int arr[9];
