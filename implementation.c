@@ -5,7 +5,7 @@
 #define BUFFER_SIZE 100
 
 
-int arr[11];
+static int arr[9];
 char buffer[BUFFER_SIZE];
 
 
@@ -28,7 +28,7 @@ int* input() {
     }
     //Recursion is used for loop till user input is fully validated
     if(dup(arr)==1 || range(arr)==1) return input();
-  return (int *) &arr;
+  return arr;
 
 
 

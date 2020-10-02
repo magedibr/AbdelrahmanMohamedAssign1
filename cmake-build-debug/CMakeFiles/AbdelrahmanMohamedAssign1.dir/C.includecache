@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/Assign1.c
+/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/Assign1.h
+
+/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/implementation.c
+Assign1.h
+/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/Assign1.h
 stdio.h
 -
 stdlib.h
 -
-time.h
+string.h
 -
-Assign1.h
-/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/Assign1.h
-suduko.h
-/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/suduko.h
-
-/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/Assign1.h
-
-/Users/ab/CLionProjects/AbdelrahmanMohamedAssign1.1/suduko.h
 
