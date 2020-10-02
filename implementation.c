@@ -66,7 +66,7 @@ int* input() {
 int dup(int arr[]){
     int i;
     int j;
-    int dupFlag=0;
+
 
     for(i = 0; i < 10; i++)
     {
@@ -79,7 +79,7 @@ int dup(int arr[]){
                         "and press 'Return' after entering nine integers.\n"
                         "Remember, to make a valid row of Sudoku gird,\n"
                         "all integers should be distinct and range from 1 to 9\n");
-              return  dupFlag=1;
+              return 1;
 
             }
         }
@@ -114,7 +114,7 @@ int *arrRet( int* arrs){
         return arrs;
 }
 
-void printFinal(int arrs[9][9])
+void printGrid(int arrs[9][9])
 
 {
 

@@ -9,7 +9,7 @@ int check(int i );
 int dup(int arr[]);
 int range(int arr[]);
 int *arrRet(int* arrs);
-void printFinal(int arrs[9][9]);
+void printGrid(int arrs[9][9]);
 
 
 
